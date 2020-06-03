@@ -1,0 +1,2 @@
+# VanillaJavascriptProjects
+practicing vanilla javascript
