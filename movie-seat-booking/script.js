@@ -1,5 +1,6 @@
 const container = document.querySelector(".container");
 const seats = document.querySelectorAll(".row .seat:not(.occupied");
+const allseats = document.querySelectorAll(".row .seat");
 const screen = document.querySelector(".screen");
 const count = document.getElementById("count");
 const total = document.querySelector(".total");
@@ -10,8 +11,16 @@ let ticketPrice = +movieSelect.value;
 /* Functions */
 //update selected number of seats
 const updateSelectedCount = () => {
-  const selected = document.querySelectorAll(".row .seat.selected");
-  const selectedLength = selected.length;
+  const selectedseats = document.querySelectorAll(".row .seat.selected");
+  //getting index of selected seats
+  const seatindex = [...selectedseats].map((seat) => {
+    //console.log(allseats);
+    const index = [...allseats].indexOf(seat);
+    return index;
+  });
+  console.log(seatindex);
+
+  const selectedLength = selectedseats.length;
   count.innerText = selectedLength;
   total.innerText = selectedLength * ticketPrice;
 };
@@ -36,5 +45,10 @@ container.addEventListener("click", (e) => {
 //eventListener for select element
 movieSelect.addEventListener("change", (e) => {
   ticketPrice = +e.target.value;
+  //removing selected seat on changing movie
+  seats.forEach((seat) => {
+    seat.classList.remove("selected");
+  });
+
   updateSelectedCount();
 });
