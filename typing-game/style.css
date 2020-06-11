@@ -75,7 +75,7 @@ button:focus {
 
 h2 {
   background-color: #b33939;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   padding: 8px;
 }
 
@@ -108,7 +108,7 @@ input {
 }
 
 .end-game-container {
-  background: yellow;
+  background: black;
   display: none;
   flex-direction: column;
   width: 100%;
@@ -119,4 +119,12 @@ input {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.play {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 40%;
+  font-size: 16px;
 }
