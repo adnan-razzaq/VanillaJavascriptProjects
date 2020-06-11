@@ -107,4 +107,5 @@ playButton.addEventListener("click", () => {
       endgame();
     }
   }, 1000);
+  playButton.style.display = "none";
 });
