@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #805ad5;
+  transition: background 0.5s ease;
+  height: 100vh;
+  position: relative;
+}
+
+form > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  height: 50px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  color: #44337a;
+}
+
+form > div > i {
+  padding: 20px;
+}
+div.inactive {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 50%);
+  transition: all 0.5s ease;
+}
+div.active {
+  opacity: 1;
+  pointer-events: all;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: #faf5ff;
+  font-size: 1.3rem;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  50% {
+    transform: translate(-50%, -70%) rotate(10deg);
+  }
+  75% {
+    transform: translate(-50%, -80%) rotate(15deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+}
