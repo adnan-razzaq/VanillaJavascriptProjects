@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weight convertor app</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background: #333;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <h1 class="display3">Weight Convertor</h1>
+          <form>
+            <div class="form-group">
+              <input
+                class="form-control form-control-lg"
+                type="number"
+                id="weight"
+                placeholder="Enter your weight in lbs"
+              />
+            </div>
+          </form>
+          <div id="output">
+            <div class="card bg-success mb-2">
+              <div class="card-block">
+                <h4>Grams</h4>
+                <div id="grams-output"></div>
+              </div>
+            </div>
+            <div class="card bg-info mb-2">
+              <div class="card-block">
+                <h4>Kilograms</h4>
+                <div id="Kilograms-output"></div>
+              </div>
+            </div>
+            <div class="card bg-danger mb-2">
+              <div class="card-block">
+                <h4>ounces</h4>
+                <div id="ounces-output"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
