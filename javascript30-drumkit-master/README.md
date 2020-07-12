@@ -1,2 +1,2 @@
-# Project 1 from Wes Bos's Javascript 30 Course
+[CLICK HERE TO SEE THE DEMO](https://drum-machine-ad.netlify.app/)
 
