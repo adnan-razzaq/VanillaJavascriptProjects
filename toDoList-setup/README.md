@@ -1,1 +1,1 @@
-[CLICK HERE TO SEE THE DEMO](https://adnan-todolist.netlify.app/)
+[CLICK HERE TO SEE THE DEMO](https://todo-list-ad.netlify.app/)
