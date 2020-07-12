@@ -1,6 +1,9 @@
 ## Exchange Rate
 
+[CLICK HERE TO SEE THE DEMO](https://exchange-rate-calcu.netlify.app/)
+
 Select countries to get the exchange rate for a specific amount
+
 
 ## Project Specifications
 
