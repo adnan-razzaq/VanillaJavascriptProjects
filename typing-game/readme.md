@@ -1,5 +1,7 @@
 ## Speed Typer Typing Game
 
+[CLICK HERE TO SEE THE DEMO](https://speed-typing-test-js.netlify.app/)
+
 Game to beat the clock by typing random words
 
 ## Project Specifications
