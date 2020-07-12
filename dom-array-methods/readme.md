@@ -1,5 +1,7 @@
 ## DOM Array Methods
 
+[CLICK HERE TO SEE THE DEMO](https://dom-array-methods.netlify.app/)
+
 Project to teach high order array methods and DOM manipulation
 
 ## Project Specifications
