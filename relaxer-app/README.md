@@ -1,5 +1,7 @@
 ## Relaxer App
 
+[CLICK HERE TO SEE THE DEMO](https://relaxor-app-js.netlify.app/)
+
 A relaxing breathing app with a visual director to tell you when to breathe in, hold and breathe out
 
 ## Project Specifications
