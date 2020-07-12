@@ -1,6 +1,6 @@
 ## Movie Seat Booking
 
-[CLICK HERE TO SEE THE DEMO](https://memory-card-gamejs.netlify.app/)
+[CLICK HERE TO SEE THE DEMO](https://seat-booking-app.netlify.app/)
 
 Display movie choices and seats in a theater to select from in order to purchase tickets
 
